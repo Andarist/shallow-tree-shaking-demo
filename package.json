@@ -1,0 +1,13 @@
+{
+  "name": "shallow-tree-shaking-demo",
+  "version": "1.0.0",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "webpack",
+    "build:min": "NODE_ENV=production webpack"
+  },
+  "dependencies": {
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "^3.5.6"
+  }
+}
